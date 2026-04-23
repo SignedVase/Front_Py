@@ -7,7 +7,7 @@ janela = QMainWindow()
 
 label = QLabel('Oi', janela)
 label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-label.setStyleSheet("color: yellow;")
+label.setStyleSheet("color: black;")
 label.resize(400,300)
 
 botao = QPushButton("Clique Aqui", janela)
