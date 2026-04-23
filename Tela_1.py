@@ -28,10 +28,6 @@ class JanelaPrin(QMainWindow):
         self.segunda = SegundaJanela()
         self.segunda.show()  # não bloqueia a janela principal
 
-
-
-
-
 app = QApplication([])
 janela = JanelaPrin()
 janela.show()
